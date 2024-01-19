@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be574968-bceb-4ca1-9e23-b6c7bf1d59d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shutdown.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/RabbitmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/consumer/RabbitMQConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/consumer/RabbitMQJsonConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/controller/MessageJsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/publisher/RabbitMQJsonProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/publisher/RabbitMQProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/study/rabbitmq/RabbitJsonMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/study/rabbitmq/RabbitMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/study/rabbitmq/RabbitmqApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/RabbitmqApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/config/RabbitMQConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/consumer/RabbitMQConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/consumer/RabbitMQJsonConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/controller/MessageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/controller/MessageJsonController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/dto/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/publisher/RabbitMQJsonProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/publisher/RabbitMQProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/study/rabbitmq/RabbitJsonMockTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/study/rabbitmq/RabbitMockTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/study/rabbitmq/RabbitmqApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +55,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -199,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705638909366</updated>
       <workItem from="1705638911347" duration="9234000" />
+      <workItem from="1705663628100" duration="639000" />
     </task>
     <servers />
   </component>
