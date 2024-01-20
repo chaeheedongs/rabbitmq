@@ -21,6 +21,14 @@ Docker와 Docker Compose를 설치하여 빌드를 해야 한다.
 
 
 
+## Index
+* [Usage](#Usage)
+* [RabbitMQ란?]()
+
+<br/><br/><br/>
+
+
+
 ## Usage
 
 * build.sh 파일 실행
@@ -30,10 +38,3 @@ Docker와 Docker Compose를 설치하여 빌드를 해야 한다.
   * RabbitMQ 컨테이너 실행
 * shutdown.sh
   * RabbitMQ 컨테이너 제거
-
-<br/><br/><br/>
-
-
-
-## Index
-*[]()
