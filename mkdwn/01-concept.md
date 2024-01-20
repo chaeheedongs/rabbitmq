@@ -6,8 +6,8 @@
 
 
 ## Index
-* [RabbitMQ 설치](RabbitMQ-설치)
-* [RabbitMQ란?](#RabbitMQ란?)
+* [RabbitMQ 설치](#RabbitMQ-설치)
+* [RabbitMQ 설명](#RabbitMQ-설명)
 * [RabbitMQ SpringBoot 환경설정](#RabbitMQ-SpringBoot-환경설정)
 
 <br/><br/><br/>
@@ -106,7 +106,7 @@ study/rabbitmq   0.0.1     ee3142662c5e   26 hours ago   231MB
 
 
 
-## RabbitMQ란?
+## RabbitMQ 설명
 
 [참고: RabbitMQ Tutorial - Hello World](https://rabbitmq.com/tutorials/tutorial-one-java.html)
 
