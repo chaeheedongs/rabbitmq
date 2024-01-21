@@ -159,6 +159,24 @@ RabbitMQ 구조
 
 <br/>
 
+> pom.xml RabbitMQ 관련 dependency 확인
+```xml
+<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+</dependencies>
+```
+
+<br/>
+
 > application.properties 또는 application.yml 설정
 
 ```text
