@@ -24,7 +24,7 @@ RabbitMQ 구조를 간단하게 표현하자면 위 그림과 같다.
 메시지를 Queue에 전송하는 P (Producer)와  
 Queue에서 가져가는 C (Consumer) 구조로 되어 있다.  
 
-[RabbitMQ란?]() 페이지에서 설명 하였듯 현실 세계 구조로  
+[RabbitMQ란?](https://github.com/chaeheedongs/rabbitmq/blob/main/mkdwn/01-concept.md) 페이지에서 설명 하였듯 현실 세계 구조로  
 P는 우편을 넣는 사람이 되고 Queue는 우편물이며, C는 배달원이 된다.
 
 <br/><br/><br/>
@@ -40,7 +40,7 @@ P는 우편을 넣는 사람이 되고 Queue는 우편물이며, C는 배달원�
 
 Producer는 Queue에 hello라는 메시지를 전달하는 구조이다.   
 
-이전에 설정해 놓은 [RabbitMQ SpringBoot 환경설정]() 글로 인하여  
+이전에 설정해 놓은 [RabbitMQ SpringBoot 환경설정](https://github.com/chaeheedongs/rabbitmq/blob/main/mkdwn/01-concept.md#RabbitMQ-SpringBoot-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95) 글로 인하여  
 스프링 부트가 실행이 되면서 RabbitMQ 관련 빈이 조립되어 올라가 있을 것이다.  
 
 간단하게 hello라는 메시지를 받을 수 있는 Controller 하나를 작성한디.
@@ -74,7 +74,7 @@ Controller를 생성하였다면 해당 메시지를 처리할 수 있도록 Ser
 Service에서는 `RabbitTemplate`을 주입받아 `convertAndSend` 메서드에 전달받은 메시지를 전달한다.  
 이때 convertAndSend의 매개변수 값은 exchange와 routingKey와 메시지이다.  
 
-해당 값들은 [RabbitMQ SpringBoot 환경설정]() 에서 properties로 설정한 값 이며,  
+해당 값들은 [RabbitMQ SpringBoot 환경설정](https://github.com/chaeheedongs/rabbitmq/blob/main/mkdwn/01-concept.md#RabbitMQ-SpringBoot-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95) 에서 properties로 설정한 값 이며,  
 Service 코드에서 필드로 해당 값들을 읽어 오고 있다.
 
 > Producer Service Example Code
