@@ -24,6 +24,7 @@ Docker와 Docker Compose를 설치하여 빌드를 해야 한다.
 ## Index
 * [Usage](#Usage)
 * [RabbitMQ란?](https://github.com/chaeheedongs/rabbitmq/blob/main/mkdwn/01-concept.md)
+* [Producer와 Consumer](https://github.com/chaeheedongs/rabbitmq/blob/main/mkdwn/02-producer-consumer.md)
 
 <br/><br/><br/>
 
